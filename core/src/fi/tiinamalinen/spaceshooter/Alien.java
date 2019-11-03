@@ -5,7 +5,7 @@ import com.badlogic.gdx.math.MathUtils;
 
 public class Alien extends GameObject {
 
-        private int alienSpeedX;
+    private int alienSpeedX;
     private int alienSpeedY;
 
     Alien() {

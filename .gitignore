@@ -1,6 +1,3 @@
-/android/assets/
-/core/build/libs/core-1.0.jar
-
 ## Java
 
 *.class
@@ -66,7 +63,6 @@ com_crashlytics_export_strings.xml
 
 /build/
 /android/build/
-/core/build/
 /desktop/build/
 /html/build/
 /ios/build/
@@ -106,7 +102,6 @@ nb-configuration.xml
 gradle-app.setting
 /build/
 /android/build/
-/core/build/
 /desktop/build/
 /html/build/
 /ios/build/
