@@ -39,9 +39,9 @@ public class MainGame implements ApplicationListener {
 		background = new Texture(Gdx.files.internal("astronomy.jpg"));
 
 		crashSound = Gdx.audio.newSound(Gdx.files.internal("collide.mp3"));
-		//backgroundMusic = Gdx.audio.newMusic(Gdx.files.internal("AShamaluev.mp3"));
-        //backgroundMusic.setLooping(true);
-        //backgroundMusic.play();
+		backgroundMusic = Gdx.audio.newMusic(Gdx.files.internal("RequiemForOurDyingUniverse.mp3"));
+        backgroundMusic.setLooping(true);
+        backgroundMusic.play();
 
         voyager = new Spaceship();
         bullets = new ArrayList<Bullet>();
@@ -116,6 +116,6 @@ public class MainGame implements ApplicationListener {
 		batch.dispose();
 		crashSound.dispose();
 		background.dispose();
-		//backgroundMusic.dispose();
+		backgroundMusic.dispose();
 	}
 }
